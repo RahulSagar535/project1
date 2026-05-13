@@ -17,12 +17,13 @@ export function Preloader() {
     // Disable scroll on mount
     document.body.style.overflow = "hidden";
 
-    // Fallback timer to ensure the preloader disappears after a safe duration (e.g., 4.5 seconds)
+    // Safety fallback timer set to 25 seconds so the video never gets cut off early,
+    // while still ensuring the user is never stuck if autoplay is blocked.
     const timer = setTimeout(() => {
       setLoading(false);
       sessionStorage.setItem("cavalier_loaded", "true");
       document.body.style.overflow = "";
-    }, 4500);
+    }, 25000);
 
     return () => {
       clearTimeout(timer);
@@ -40,10 +41,11 @@ export function Preloader() {
     <AnimatePresence>
       {loading && (
         <motion.div
-          initial={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
-          className="fixed inset-0 z-[9999] bg-black overflow-hidden"
+          initial={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 1.04 }}
+          transition={{ duration: 1.4, ease: [0.76, 0, 0.24, 1] }}
+          onClick={handleVideoEnded}
+          className="fixed inset-0 z-[9999] bg-black overflow-hidden cursor-pointer"
         >
           {/* Immersive Full Screen Video */}
           <video
