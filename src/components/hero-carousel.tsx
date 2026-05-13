@@ -43,7 +43,7 @@ export function HeroCarousel() {
     >
       <motion.div
         style={{ scale, y, rotateX, transformPerspective: 1200 }}
-        className="absolute inset-4 overflow-hidden rounded-2xl shadow-lift"
+        className="absolute inset-4 sm:inset-6 md:inset-8 lg:inset-10 overflow-hidden rounded-2xl shadow-lift"
       >
         <AnimatePresence mode="wait">
           <motion.div

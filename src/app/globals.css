@@ -87,32 +87,44 @@ textarea {
 }
 
 .container-x {
-  width: min(100% - 2rem, 1440px);
+  width: min(100% - 3.5rem, 1440px);
   margin-inline: auto;
 }
 
+@media (min-width: 768px) {
+  .container-x {
+    width: min(100% - 6rem, 1440px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-x {
+    width: min(100% - 8rem, 1440px);
+  }
+}
+
 .section-y {
-  padding-block: clamp(4rem, 8vw, 8rem);
+  padding-block: clamp(3.5rem, 6.5vw, 6.5rem);
 }
 
 :where(.eyebrow) {
   color: var(--color-muted);
-  font-size: 0.78rem;
+  font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
 .display {
-  font-size: clamp(2.5rem, 6vw, 5.8rem);
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
   font-weight: 500;
   letter-spacing: -0.02em;
-  line-height: 0.92;
+  line-height: 0.94;
 }
 
 .hero-display {
-  font-size: clamp(2rem, 6vw, 4.2rem);
-  line-height: 0.94;
+  font-size: clamp(1.8rem, 4.8vw, 3.2rem);
+  line-height: 0.96;
 }
 
 .hero-copy {
@@ -120,16 +132,16 @@ textarea {
 }
 
 .section-heading {
-  font-size: clamp(2.7rem, 6vw, 6rem);
+  font-size: clamp(2.1rem, 4.8vw, 4.4rem);
   font-weight: 500;
-  letter-spacing: 0;
-  line-height: 0.9;
+  letter-spacing: -0.01em;
+  line-height: 0.95;
 }
 
 :where(.body-large) {
   color: var(--color-muted);
-  font-size: clamp(1.08rem, 2vw, 1.45rem);
-  line-height: 1.45;
+  font-size: clamp(0.95rem, 1.35vw, 1.22rem);
+  line-height: 1.48;
 }
 
 .btn-dark {
