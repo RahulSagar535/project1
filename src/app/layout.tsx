@@ -3,6 +3,7 @@ import { Inter_Tight } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { Preloader } from "@/components/preloader";
 
 const interTight = Inter_Tight({
   subsets: ["latin"],
@@ -65,6 +66,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={interTight.variable} data-scroll-behavior="smooth">
       <body className="min-h-screen antialiased">
+        <Preloader />
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
