@@ -22,7 +22,7 @@ export default function ConsultingPage() {
         <Reveal delay={0.1} className="relative aspect-[4/3] overflow-hidden rounded-[2rem] shadow-lift">
           <Image
             src={asset("/_next/static/media/consultancy.0~iau-3kv3b1~.webp")}
-            alt="Craig Trettau in Boardroom"
+            alt="Craig Cavalier in Boardroom"
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 52vw"

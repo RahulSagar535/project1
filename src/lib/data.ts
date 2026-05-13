@@ -13,11 +13,11 @@ export const navItems = [
 ];
 
 export const brand = {
-  logoBlack: "/logos/trettau_logo_black.png",
-  logoWhite: "/logos/trettau_logo_white.png",
-  icon: "/logos/trettau_logo_black.png",
-  name: "Trettau Studio",
-  email: "hello@trettaustudio.com",
+  logoBlack: "/logos/cavalier_logo_black.png",
+  logoWhite: "/logos/cavalier_logo_white.png",
+  icon: "/logos/cavalier_logo_black.png",
+  name: "Cavalier",
+  email: "hello@cavalier.studio",
 };
 
 export const stats = [
@@ -576,7 +576,7 @@ export const projects: Project[] = [
       "The Tailor's Promenade organizes Heritage, Tailoring, Travel, and Occasion with warm stone thresholds, brass rails, marble plinths, and gallery lighting.",
     featureCaption: "Elevator",
     featureText:
-      "One of several European flagships in a coordinated global market entry strategy across six continents, directed by Craig Trettau at VP level.",
+      "One of several European flagships in a coordinated global market entry strategy across six continents, directed by Craig Cavalier at VP level.",
     image:
       "https://cdn.sanity.io/images/hd48dqf3/production/d809162f841a221830ba91aa8b22402431c40eb6-1800x1200.jpg?rect=0,150,1800,900&w=2200&h=1100&fm=webp&fit=crop",
     gallery: [
@@ -685,7 +685,7 @@ export const timeline = [
   },
   {
     year: "2020",
-    title: "Founded Trettau Studio",
+    title: "Founded Cavalier",
     text: "Launched a strategy-led firm delivering brand turnarounds and market entry for retail and hospitality brands that value operational depth and authentic storytelling.",
     image: asset("/_next/static/media/2.0kwqr3xsn6j7v.webp"),
   },

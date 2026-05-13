@@ -12,15 +12,15 @@ const interTight = Inter_Tight({
 
 export const metadata: Metadata = {
   title: {
-    default: "Trettau Studio | Luxury Hospitality & Retail Design",
-    template: "%s | Trettau Studio",
+    default: "Cavalier | Luxury Hospitality & Retail Design",
+    template: "%s | Cavalier",
   },
   description:
-    "Trettau Studio creates luxury hospitality interiors, flagship retail environments, and Michelin-caliber restaurant spaces. Strategy-led design with global reach.",
-  applicationName: "Trettau Studio",
-  authors: [{ name: "Trettau Studio" }],
+    "Cavalier creates luxury hospitality interiors, flagship retail environments, and Michelin-caliber restaurant spaces. Strategy-led design with global reach.",
+  applicationName: "Cavalier",
+  authors: [{ name: "Cavalier" }],
   keywords: [
-    "Trettau Studio",
+    "Cavalier",
     "luxury hospitality design",
     "retail design studio",
     "flagship store design",
@@ -28,21 +28,21 @@ export const metadata: Metadata = {
     "Michelin restaurant design",
     "San Francisco design studio",
   ],
-  metadataBase: new URL("https://trettaustudio.com"),
+  metadataBase: new URL("https://Cavalierstudio.com"),
   openGraph: {
-    title: "Trettau Studio | Luxury Hospitality & Retail Design",
+    title: "Cavalier | Luxury Hospitality & Retail Design",
     description:
       "Luxury hospitality interiors, flagship retail environments, and fine dining spaces designed to elevate brand experience and commercial performance.",
-    url: "https://trettaustudio.com",
-    siteName: "Trettau Studio",
+    url: "https://Cavalierstudio.com",
+    siteName: "Cavalier",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Trettau Studio | Luxury Hospitality & Retail Design",
+    title: "Cavalier | Luxury Hospitality & Retail Design",
     description:
-      "Luxury hospitality interiors, flagship retail environments, and fine dining spaces designed by Trettau Studio.",
+      "Luxury hospitality interiors, flagship retail environments, and fine dining spaces designed by Cavalier.",
   },
   robots: {
     index: true,

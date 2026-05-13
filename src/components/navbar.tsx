@@ -7,7 +7,7 @@ import { useState } from "react";
 import { navItems } from "@/lib/data";
 import { cn } from "@/lib/utils";
 
-function TrettauLogo({ className }: { className?: string }) {
+function CavalierLogo({ className }: { className?: string }) {
   return (
     <svg
       viewBox="0 0 260 48"
@@ -16,7 +16,7 @@ function TrettauLogo({ className }: { className?: string }) {
       aria-hidden="true"
       className={className}
     >
-      {/* TRETTAU */}
+      {/* CAVALIER */}
       <text
         x="0"
         y="34"
@@ -26,7 +26,7 @@ function TrettauLogo({ className }: { className?: string }) {
         letterSpacing="6"
         fill="currentColor"
       >
-        TRETTAU
+        CAVALIER
       </text>
       {/* STUDIO */}
       <text
@@ -54,11 +54,11 @@ export function Navbar() {
       <div className="container-x flex h-16 items-center justify-between">
         <Link
           href="/"
-          aria-label="Trettau Studio home"
+          aria-label="Cavalier home"
           className="flex items-center"
           onClick={() => setOpen(false)}
         >
-          <TrettauLogo className="h-9 w-auto text-[#111111]" />
+          <CavalierLogo className="h-9 w-auto text-[#111111]" />
         </Link>
 
         <nav

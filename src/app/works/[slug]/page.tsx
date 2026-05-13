@@ -25,9 +25,9 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 
   return {
     title: project.title,
-    description: `${project.title} by Trettau Studio in ${project.location}.`,
+    description: `${project.title} by Cavalier in ${project.location}.`,
     openGraph: {
-      title: `${project.title} | Trettau Studio`,
+      title: `${project.title} | Cavalier`,
       description: project.overview,
       images: [{ url: project.image }],
     },

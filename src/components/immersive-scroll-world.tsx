@@ -259,7 +259,7 @@ export function ImmersiveScrollWorld() {
                       <div className="relative min-h-52 overflow-hidden rounded-2xl bg-white/5">
                         <Image
                           src={item.image}
-                          alt={item.title ?? "Trettau Studio visual block"}
+                          alt={item.title ?? "Cavalier visual block"}
                           fill
                           sizes="(max-width: 768px) 72vw, 360px"
                           className="object-cover"

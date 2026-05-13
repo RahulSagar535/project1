@@ -11,7 +11,7 @@ import { asset, press } from "@/lib/data";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Craft, leadership, and consequence behind Trettau Studio and founder Craig Trettau.",
+    "Craft, leadership, and consequence behind Cavalier and founder Craig Cavalier.",
 };
 
 export default function AboutPage() {

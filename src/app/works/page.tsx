@@ -5,7 +5,7 @@ import { projects } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Selected Works",
   description:
-    "Selected hospitality and retail work by Trettau Studio, including Selby's, La Connessa, Gap, Old Navy, Athleta, and Banana Republic.",
+    "Selected hospitality and retail work by Cavalier, including Selby's, La Connessa, Gap, Old Navy, Athleta, and Banana Republic.",
 };
 
 export default function WorksPage() {

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { brand, navItems } from "@/lib/data";
 
-function TrettauLogo({ className }: { className?: string }) {
+function CavalierLogo({ className }: { className?: string }) {
   return (
     <svg
       viewBox="0 0 260 48"
@@ -19,7 +19,7 @@ function TrettauLogo({ className }: { className?: string }) {
         letterSpacing="6"
         fill="currentColor"
       >
-        TRETTAU
+        CAVALIER
       </text>
       <text
         x="2"
@@ -43,11 +43,11 @@ export function Footer() {
       <div className="container-x grid gap-12 py-16 lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
         <div>
           <div className="mb-6">
-            <TrettauLogo className="h-9 w-auto text-white" />
+            <CavalierLogo className="h-9 w-auto text-white" />
           </div>
           <p className="max-w-sm text-sm leading-6 text-white/62">
             The world&apos;s premier studio for luxury hospitality and retail design.
-            Founded by Craig Trettau in 2020.
+            Founded by Craig Cavalier in 2020.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export function Footer() {
       </div>
 
       <div className="container-x flex flex-col gap-4 border-t border-white/10 py-7 text-xs text-white/45 md:flex-row md:items-center md:justify-between">
-        <p>©2026 by TRETTAU STUDIO LLC. All rights reserved</p>
+        <p>©2026 by CAVALIER STUDIO LLC. All rights reserved</p>
         <nav className="flex gap-5" aria-label="Legal navigation">
           <Link href="/cookie-policy">Cookie Policy</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://trettaustudio.com/sitemap.xml",
+    sitemap: "https://Cavalierstudio.com/sitemap.xml",
   };
 }

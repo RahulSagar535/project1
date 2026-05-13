@@ -70,7 +70,7 @@ export function HeroCarousel() {
 
       <div className="container-x relative z-10 flex h-full items-end pb-10">
         <div className="hero-copy mb-6 min-w-0">
-          <p className="eyebrow mb-5 text-white/70">Trettau Studio</p>
+          <p className="eyebrow mb-5 text-white/70">Cavalier</p>
           <h1 className="display hero-display">We Turn Legacy Into Authority.</h1>
           <p className="body-large mt-8 max-w-2xl text-white/76">
             Executive creative leadership for hospitality owners, retail brands, real

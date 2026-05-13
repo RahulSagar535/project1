@@ -14,7 +14,7 @@ export function StudioCta() {
         <div className="flex flex-col justify-center p-8 sm:p-12 lg:p-16">
           <h2 className="section-heading max-w-xl">The Studio Behind the Work.</h2>
           <p className="body-large mt-7 max-w-xl">
-            Founded in San Francisco in 2020, Trettau Studio brings executive
+            Founded in San Francisco in 2020, Cavalier brings executive
             creative leadership to hospitality, retail, and advisory engagements across the
             globe.
           </p>
@@ -28,7 +28,7 @@ export function StudioCta() {
         <div className="relative min-h-[26rem]">
           <Image
             src={asset("/_next/static/media/craig.0hecvw4dpwx_i.webp")}
-            alt="Craig Trettau"
+            alt="Craig Cavalier"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover object-right"

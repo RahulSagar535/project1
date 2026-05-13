@@ -6,7 +6,7 @@ import { Reveal } from "@/components/reveal";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Trettau Studio for design projects, consulting, and strategic hospitality or retail design leadership.",
+    "Contact Cavalier for design projects, consulting, and strategic hospitality or retail design leadership.",
 };
 
 export default function ContactPage() {

@@ -9,7 +9,7 @@ import { StatsBlock } from "@/components/stats-block";
 import { asset, projects } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Trettau Studio | Luxury Hospitality & Retail Design",
+  title: "Cavalier | Luxury Hospitality & Retail Design",
 };
 
 export default function HomePage() {
